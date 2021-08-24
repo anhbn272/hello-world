@@ -1,2 +1,2 @@
 # hello-world
-start exploring github
+A curious MBA started to learn and look for opportunities in data analytics
