@@ -1,0 +1,51 @@
+# [CLIENT/PROJECT NAME] — SYSTEM INTERFACE SPECIFICATION
+🚀 PHASE 1 TARGET LAUNCH: [MM/YYYY] | 🛠 STATUS: STAGED / LOCK PENDING
+
+> **Executive Summary:** This document establishes the rigid data boundaries and execution rules for the [System Name]. By separating human business logic from automated processing layers, we eliminate technical scope creep and ensure predictable operational costs.
+
+---
+
+## 1. THE SYSTEM HORIZON (THE TIMELINE LOGIC)
+To prevent tool fatigue and ensure data hygiene, the engine is deployed in modular stages. 
+
+[STAGE 1: CURRENT]              [STAGE 2: UPCOMING]             [STAGE 3: FUTURE]
+[Name, e.g., Ads Pilot]  ➔     [Name, e.g., Fulfillment]  ➔     [Name, e.g., Full Release]
+Target: [MM/YYYY]               Target: [MM/YYYY]               Target: [MM/YYYY]
+Focus: [Core Variable]          Focus: [Secondary Variable]     Focus: [Scale/Automation]
+
+---
+
+## 2. THE INTERFACE CONTRACT (IN / OUT BOUNDARIES)
+The system operates strictly within this data box. Any operational request outside these parameters is explicitly deferred to Phase 2 to protect the engineering pipeline.
+
+### 📥 INPUTS (What the System Accepts)
+*   **Variable A:** [e.g., Categorized Text / Cleaned Seller Performance Data]
+*   **Variable B:** [e.g., Static Rule-Based Hygiene Thresholds (No Real-Time Streams)]
+*   **Constraint:** Data must be delivered in standard [e.g., CSV / JSON / Table] format via [e.g., Batch Processing / Weekly Sync].
+
+### 📤 OUTPUTS (What the System Delivers)
+*   **Deliverable A:** [e.g., Prioritized List of Top 300 High-Yield Accounts]
+*   **Deliverable B:** [e.g., 3-Line Conversational Action Scripts for Account Managers]
+*   **Constraint:** Outputs are pushed directly to the [e.g., Existing CRM Dashboard / Shared Database] without altering frontline UI layouts.
+
+---
+
+## 3. CORE LOGIC MATRIX (RULE-BASED VS. GENERATIVE)
+To guarantee system reliability, we isolate deterministic business rules from non-deterministic AI generation.
+
+| Layer | Component Type | Responsibility / Boundary | Failure Mitigation |
+| :--- | :--- | :--- | :--- |
+| **Layer 1: Science** | [e.g., ML / LLM Model] | Identifies patterns and summarizes messy incoming text. | Bound by strict temperature parameters to prevent drift. |
+| **Layer 2: Business** | [e.g., Rigid Filter Matrix] | Enforces company compliance and hard thresholds (Human Rules). | Overrides Layer 1 if outputs violate baseline business hygiene. |
+| **Layer 3: Human** | [e.g., AM Reviewer] | Final safety check. Reviews generated script before customer contact. | **Human-in-the-Loop:** System never auto-sends without manual sign-off. |
+
+---
+
+## 4. CRITICAL DEPENDENCIES & SIGN-OFF GATES
+The engineering timeline remains unlocked until the following operational thresholds are explicitly confirmed by the respective business owners.
+
+⚠️ CRITICAL GATEKEEPER ACTIONS REQUIRED:
+1.  **[Stakeholder Role/Name]:** Confirm final competitive benchmark thresholds by [Date].
+2.  **[Stakeholder Role/Name]:** Approve maximum weekly recommendation volume per user by [Date].
+
+*By signing off on these parameters, the business confirms that the system boundaries align with frontline team capacity for the Phase 1 launch.*
