@@ -1,0 +1,45 @@
+# PRODUCT MECHANISM: THE WEEK 1 PROTOTYPE (HTML MOCKUP)
+🛠 PROTOCOL: REUSEABLE UI SIMULATION GENERATOR
+
+## 1. THE ARCHITECTURAL FRAMEWORK
+This mechanism translates abstract backend logic into a tangible, clickable interface in under 10 minutes using an AI assistant. The artifact must be a single, self-contained `index.html` file using standard HTML5, native CSS (or Tailwind via CDN), and vanilla JavaScript. No external local dependencies or build steps allowed.
+
+---
+
+## 2. THE THREE REQUIRED STRUCTURAL INPUTS
+Before generating the mockup code, you must extract three concrete variables from your "1-Page Spec Sheet" (Asset 1):
+
+1.  **The Output Data Model:** Exactly what data points does the system produce? (e.g., Table columns, specific metric numbers, status badges).
+2.  **The Core Logic Gate:** What is the hard rule or threshold the system enforces? (e.g., If X variable is true, button A turns green; if false, button A is disabled).
+3.  **The Human Interaction Loop:** What action must the user take? (e.g., Clicking a button to display a text field, triggering an alert box, or toggling a status).
+
+---
+
+## 3. THE REUSABLE MASTER AI PROMPT TEMPLATE
+Copy and paste this exact prompt template into your AI development environment, filling out the bracketed fields `[...]` using the inputs defined above.
+
+```text
+Act as a Principal UI Architect and Systems Engineer. Create a highly professional, responsive, single-file `index.html` mockup that visualizes an operational system boundary.
+
+### UI DESIGN & LAYOUT CONSTRAINT:
+1. Use a clean, modern corporate dashboard layout (clean typography, crisp data tables, dark/light contrast). Include Tailwind CSS via CDN for rapid utility styling.
+2. Add a persistent, global top banner that reads: "⚠️ SYSTEM SIMULATION: FOR ARCHITECTURAL INTERFACE & SPECIFICATION VERIFICATION ONLY."
+3. Every button that represents an out-of-scope feature (e.g., settings, export, profile) must be clickable but trigger a standard browser alert: "Deferred to Phase 2: Outside current contract boundary."
+
+### VARIABLE 1: DATA MODEL VISUALIZATION
+Hardcode an array of exactly 3 realistic sample objects in JavaScript to represent the system outputs. Render this data into a main dashboard table/view with the following explicit columns/fields:
+-> [Insert Column/Field 1, e.g., Account Name]
+-> [Insert Column/Field 2, e.g., System Score / Volume]
+-> [Insert Column/Field 3, e.g., Constraint Status Badge]
+
+### VARIABLE 2: CORE SYSTEM LOGIC GATE
+Embed the following conditional logic natively into the UI component states using vanilla JavaScript:
+-> Case A (Pass): For data rows that meet [Insert Pass Condition, e.g., Compliance = True], the primary action button must be active and styled in high-contrast blue/green.
+-> Case B (Fail/Block): For data rows that meet [Insert Fail Condition, e.g., Compliance = False], the primary action button must be disabled (grayed out) and labeled: "[Insert Blocked Label, e.g., Locked: Pending Review]".
+
+### VARIABLE 3: THE HUMAN-IN-THE-LOOP INTERACTION
+Build an interactive review loop within the page:
+When the user clicks the active primary action button for a "Pass" row, do not reload the page. Instead, use vanilla JS to instantly populate a separate "System Output Panel" located below or next to the table. 
+This panel must display:
+1. [Insert Expected Generated Output, e.g., A 3-line generated text message string].
+2. Two final manual action gates: a secondary button labeled "[Insert Label, e.g., Manual Approve]" and a button labeled "[Insert Label, e.g., Flag Error]".
