@@ -1,0 +1,25 @@
+# OPERATIONAL MECHANISM: THE 15-MINUTE GATE REVIEW
+⚙️ Cadence: Asynchronous-First | ⏰ Duration: Strict 15-Minute Limit
+
+## 1. THE PRE-CONDITION (THE TICKETING GATE)
+*   **The Rule:** No document, no meeting. 
+*   **The Execution:** Exactly 24 hours before the meeting, send the "1-Page Spec Sheet" (Asset 1) with specific sections highlighted in yellow where input is needed. 
+*   **The Forcing Script:** "Hi [Name], ahead of our 15-minute gate review tomorrow, please look over Section 2 (Inputs) and Section 4 (Dependencies). I have highlighted the specific variable boundaries we must lock down to guarantee our deployment date."
+
+## 2. THE RUNTIME AGENDA (THE 15-MINUTE CLOCK)
+Do not use slides. Open the highlighted 1-Page Spec Sheet directly on the screen share.
+
+*   **Minutes 00-03: The Current Track:**
+    "We are entirely on track for our July pilot. The system architecture is staged. Today, we have one goal: lock the operational boundaries so engineering can finalize the data pipeline."
+*   **Minutes 03-10: The Variable Drill-Down:**
+    Go directly to the yellow text. Do not ask broad questions like "What do you think?" Ask binary, operational questions:
+    "Section 2 dictates a cap of 300 accounts for the July pilot to protect your team’s capacity. Does this parameter match your team's current weekly workload, or do we need to adjust the filter down to 150?"
+*   **Minutes 10-15: The Interface Sign-Off:**
+    "Perfect, we are locking the cap at 300. I am logging this variable in the spec sheet. I will flag this dependency as 'Locked' in our WBR track. Thank you, our gate review is complete."
+
+## 3. THE AUDIT TRAIL (THE PAPER DEFENSE)
+Within 5 minutes of the meeting ending, send a 3-bullet text note to the participant and your manager:
+"Decisions locked during today's 15-Minute Gate Review for [Project Name]:
+1. Pilot capacity confirmed and capped at 300 units.
+2. Data sync protocol locked as a weekly CSV batch process.
+3. No blockers. July deployment pipeline remains Green."
